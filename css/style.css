@@ -39,21 +39,6 @@
       color: #1d2d50;
       font-weight: 600;
     }
-.menu-toggle {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  color: #1d2d50;
-}
-
-@media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  nav ul {
-    display: none;
-  }
 
   nav ul.active {
     display: flex;
@@ -757,39 +742,6 @@ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
   padding-top: 15px;
   font-size: 0.85rem;
   color: #555;
-}
-
-@media (max-width: 768px) {
-  nav ul {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 70px;
-    right: 10%;
-    width: 200px;
-    padding: 20px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-  }
-
-  nav ul.active {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: block;
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: #1d2d50;
-  }
-
-  .hire-btn {
-    display: none;
-  }
-}
-
-.menu-toggle {
-  display: none;
 }
 
 @media (max-width: 768px) {
